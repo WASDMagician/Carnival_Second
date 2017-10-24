@@ -224,6 +224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   draw_gizmos: 0
+  size: {x: 0, y: 0, z: 0}
 --- !u!1 &435089585
 GameObject:
   m_ObjectHideFlags: 0
@@ -265,6 +266,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   draw_gizmos: 0
+  size: {x: 0, y: 0, z: 0}
+--- !u!1 &464173083 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: 63a775b01ff0bd5459a5555e348e8506, type: 3}
+  m_PrefabInternal: {fileID: 666068003}
+--- !u!114 &464173084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 464173083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2a4ae887bc50d2458c95039ae4a8919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  point_at: {fileID: 1292413698}
+  firing_point: {fileID: 20666202}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!1 &480389349
 GameObject:
   m_ObjectHideFlags: 0
@@ -427,6 +447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   draw_gizmos: 0
+  size: {x: 0, y: 0, z: 0}
 --- !u!4 &514039906 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: 63a775b01ff0bd5459a5555e348e8506, type: 3}
@@ -562,11 +583,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: 63a775b01ff0bd5459a5555e348e8506, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 63a775b01ff0bd5459a5555e348e8506, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.82
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 63a775b01ff0bd5459a5555e348e8506, type: 3}
       propertyPath: m_LocalPosition.z
@@ -624,6 +645,7 @@ GameObject:
   m_Component:
   - component: {fileID: 687014063}
   - component: {fileID: 687014062}
+  - component: {fileID: 687014064}
   m_Layer: 0
   m_Name: Rifle
   m_TagString: Untagged
@@ -637,13 +659,14 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 687014061}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e2a4ae887bc50d2458c95039ae4a8919, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   point_at: {fileID: 1292413698}
   firing_point: {fileID: 20666202}
+  offset: {x: 0, y: -2, z: 0}
 --- !u!4 &687014063
 Transform:
   m_ObjectHideFlags: 0
@@ -651,13 +674,26 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 687014061}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: -1.89, z: -6.35}
+  m_LocalPosition: {x: 0, y: -1.89, z: -5.06}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 514039906}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &687014064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 687014061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2d9f7ece161afa47a4341ab00dc4aa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  draw_gizmos: 1
+  size: {x: 0.25, y: 0.25, z: 0.25}
 --- !u!1 &776204875
 GameObject:
   m_ObjectHideFlags: 0
@@ -1036,6 +1072,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   draw_gizmos: 0
+  size: {x: 0, y: 0, z: 0}
 --- !u!1 &1203067639
 GameObject:
   m_ObjectHideFlags: 0
@@ -1458,6 +1495,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   draw_gizmos: 0
+  size: {x: 0, y: 0, z: 0}
 --- !u!1 &1609846657
 GameObject:
   m_ObjectHideFlags: 0
@@ -1820,3 +1858,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   draw_gizmos: 0
+  size: {x: 0, y: 0, z: 0}
