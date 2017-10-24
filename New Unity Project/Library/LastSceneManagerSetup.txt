@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Games/Balloon_Pop/Scenes/balloon_pop.unity
+  isLoaded: 1
+  isActive: 1
