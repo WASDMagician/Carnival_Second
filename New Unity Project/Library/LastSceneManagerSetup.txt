@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Games/Balloon_Pop/Scenes/balloon_pop.unity
+- path: Assets/Games/Whack_A_Mole/Scenes/Whack-A-Mole.unity
   isLoaded: 1
   isActive: 1
